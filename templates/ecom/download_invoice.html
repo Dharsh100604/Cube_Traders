@@ -9,13 +9,13 @@
   size: A4;
   margin: 1cm;
 
-  @frame footer {
+  /* @frame footer {
     -pdf-frame-content: footerContent;
     bottom: 0cm;
     margin-left: 9cm;
     margin-right: 9cm;
     height: 1cm;
-  }
+  } */
 }
 
 
@@ -167,7 +167,7 @@
                 Product Image :<br>
                  <img src="{% static product_image.url %}" alt="Profile Pic" height="40px" width="40px" /><br><br>
                 Product Price : <br>
-                ${{productPrice}}
+                Rs.{{productPrice}}
               </td>
               <td>
                 Product: <br> {{productName}}<br><br>
